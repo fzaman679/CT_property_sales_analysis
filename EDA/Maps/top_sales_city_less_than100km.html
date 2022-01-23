@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_457969d94df74423bdadb2113dbb20f1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_457969d94df74423bdadb2113dbb20f1" ></div>
+        
+</body>
+<script>    
+    
+            var map_457969d94df74423bdadb2113dbb20f1 = L.map(
+                "map_457969d94df74423bdadb2113dbb20f1",
+                {
+                    center: [41.1095336616298, -73.60959505779903],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9.6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fe6d5cc6c400410385604bd182d27d2f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_457969d94df74423bdadb2113dbb20f1);
+        
+    
+            var marker_a3aff4d94a4242deb7b4338ba4c72f68 = L.marker(
+                [41.1670412, -73.2048348],
+                {}
+            ).addTo(map_457969d94df74423bdadb2113dbb20f1);
+        
+    
+        var popup_113cb6fc29b14e728f9d2c15d01f99d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30f45cf2ebb84b789dff2874b91d343a = $(`<div id="html_30f45cf2ebb84b789dff2874b91d343a" style="width: 100.0%; height: 100.0%;">Number of Sales: 5042 Distance from NYC: 78.16834798897912</div>`)[0];
+            popup_113cb6fc29b14e728f9d2c15d01f99d0.setContent(html_30f45cf2ebb84b789dff2874b91d343a);
+        
+
+        marker_a3aff4d94a4242deb7b4338ba4c72f68.bindPopup(popup_113cb6fc29b14e728f9d2c15d01f99d0)
+        ;
+
+        
+    
+    
+            marker_a3aff4d94a4242deb7b4338ba4c72f68.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e04ef779b93468ba1f1ad78602ab800 = L.marker(
+                [41.0534302, -73.5387341],
+                {}
+            ).addTo(map_457969d94df74423bdadb2113dbb20f1);
+        
+    
+        var popup_da6c2ef5cf2b4efbb1fd120ccd406e3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83c391b90e184d1b8f9ceac267780fd8 = $(`<div id="html_83c391b90e184d1b8f9ceac267780fd8" style="width: 100.0%; height: 100.0%;">Number of Sales: 4851 Distance from NYC: 48.9524527400645</div>`)[0];
+            popup_da6c2ef5cf2b4efbb1fd120ccd406e3f.setContent(html_83c391b90e184d1b8f9ceac267780fd8);
+        
+
+        marker_5e04ef779b93468ba1f1ad78602ab800.bindPopup(popup_da6c2ef5cf2b4efbb1fd120ccd406e3f)
+        ;
+
+        
+    
+    
+            marker_5e04ef779b93468ba1f1ad78602ab800.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_239a5895fc6a48fb8dbc053daa4358da = L.marker(
+                [41.1845415, -73.1331651],
+                {}
+            ).addTo(map_457969d94df74423bdadb2113dbb20f1);
+        
+    
+        var popup_1187e31f4f4f41d38e037e879d8954d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_808d0bbd146647a0959e70707de90ba4 = $(`<div id="html_808d0bbd146647a0959e70707de90ba4" style="width: 100.0%; height: 100.0%;">Number of Sales: 4000 Distance from NYC: 84.11424195893676</div>`)[0];
+            popup_1187e31f4f4f41d38e037e879d8954d0.setContent(html_808d0bbd146647a0959e70707de90ba4);
+        
+
+        marker_239a5895fc6a48fb8dbc053daa4358da.bindPopup(popup_1187e31f4f4f41d38e037e879d8954d0)
+        ;
+
+        
+    
+    
+            marker_239a5895fc6a48fb8dbc053daa4358da.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72e4e4c7b5724d1b848b3b85a551aba7 = L.marker(
+                [41.1175966, -73.4078968],
+                {}
+            ).addTo(map_457969d94df74423bdadb2113dbb20f1);
+        
+    
+        var popup_6376877a85974c51a45c0844bd2be0b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e0d45c8a2da4f379b9f060d93bb8960 = $(`<div id="html_1e0d45c8a2da4f379b9f060d93bb8960" style="width: 100.0%; height: 100.0%;">Number of Sales: 3517 Distance from NYC: 61.72386531338465</div>`)[0];
+            popup_6376877a85974c51a45c0844bd2be0b3.setContent(html_1e0d45c8a2da4f379b9f060d93bb8960);
+        
+
+        marker_72e4e4c7b5724d1b848b3b85a551aba7.bindPopup(popup_6376877a85974c51a45c0844bd2be0b3)
+        ;
+
+        
+    
+    
+            marker_72e4e4c7b5724d1b848b3b85a551aba7.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_097301bdd94e4b84800e4628485d2cd0 = L.marker(
+                [41.1412078, -73.2637258],
+                {}
+            ).addTo(map_457969d94df74423bdadb2113dbb20f1);
+        
+    
+        var popup_2328b2e65cea427cbf727bb7143c120d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7733b57896a43b9887d22f15ade421e = $(`<div id="html_f7733b57896a43b9887d22f15ade421e" style="width: 100.0%; height: 100.0%;">Number of Sales: 3137 Distance from NYC: 72.52402191144756</div>`)[0];
+            popup_2328b2e65cea427cbf727bb7143c120d.setContent(html_f7733b57896a43b9887d22f15ade421e);
+        
+
+        marker_097301bdd94e4b84800e4628485d2cd0.bindPopup(popup_2328b2e65cea427cbf727bb7143c120d)
+        ;
+
+        
+    
+    
+            marker_097301bdd94e4b84800e4628485d2cd0.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77cc62372cf1411788dbdad9796d7128 = L.marker(
+                [41.394817, -73.4540111],
+                {}
+            ).addTo(map_457969d94df74423bdadb2113dbb20f1);
+        
+    
+        var popup_00d3c19c8260474ab8945b100bae418f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7aa38ec39a944e2b9914f57b29ac4f4d = $(`<div id="html_7aa38ec39a944e2b9914f57b29ac4f4d" style="width: 100.0%; height: 100.0%;">Number of Sales: 3075 Distance from NYC: 84.10500265448331</div>`)[0];
+            popup_00d3c19c8260474ab8945b100bae418f.setContent(html_7aa38ec39a944e2b9914f57b29ac4f4d);
+        
+
+        marker_77cc62372cf1411788dbdad9796d7128.bindPopup(popup_00d3c19c8260474ab8945b100bae418f)
+        ;
+
+        
+    
+    
+            marker_77cc62372cf1411788dbdad9796d7128.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
